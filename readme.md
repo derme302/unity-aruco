@@ -1,4 +1,5 @@
-# HoloLensArucoTracking
+# Unity Aruco
+_Supports Unity 2019.4.18f1_
 
 This project is a native plugin and accompanying C# scripts for Unity that uses the OpenCV Aruco plugin to provide fiducial marker tracking on the HoloLens and in the Unity editor.
 

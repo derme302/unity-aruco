@@ -15,9 +15,10 @@ public class Line : MonoBehaviour
         // Add a Line Renderer to the GameObject
         line = this.gameObject.AddComponent<LineRenderer>();
         // Set the width of the Line Renderer
-        line.SetWidth(0.05F, 0.05F);
-        // Set the number of vertex fo the Line Renderer
-        line.SetVertexCount(2);
+        line.startWidth = 0.05F;
+        line.endWidth = 0.05F;
+        // Set the number of vertex for the Line Renderer
+        line.positionCount =2;
     }
 
     // Update is called once per frame
